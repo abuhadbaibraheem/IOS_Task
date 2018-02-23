@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.receivedErrorWithStatusCode(statusCode:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "billObj.content1.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.tableView(_:numberOfRowsInSection:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "billObj.content1.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
