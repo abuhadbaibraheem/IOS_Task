@@ -91,7 +91,13 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //return billObj.content1.count
-        return 10
+        if section == 0 {
+            return 6
+
+        } else {
+            return 4
+
+        }
         
     }
     
@@ -99,6 +105,30 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
         return cell
     }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 2
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        var label =  UILabel()
+        
+        if section == 1
+            {
+            label.font = UIFont.systemFont(ofSize: 16)
+            label.textAlignment = .center
+            label.textColor = UIColor.black
+            label.text = "------------------------------------   All Servers ------------------------------------"
+                
+        }
+        
+        
+       
+        
+        return label
+
+    }
+    
 }
 
 extension ViewController: HttpHelperDelegate {

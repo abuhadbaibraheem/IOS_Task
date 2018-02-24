@@ -160,10 +160,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="Lbl_Brasilcom" destination="MYU-ef-mlg" id="pL7-Xy-29T"/>
                 <outlet property="Lbl_CBU" destination="8cz-nE-Mar" id="wen-5t-hun"/>
-                <outlet property="Lbl_Cou" destination="kDM-S4-Q5d" id="LyP-B7-Y0z"/>
-                <outlet property="Lbl_count" destination="bzW-sC-B1I" id="c5s-bw-GH8"/>
                 <outlet property="imageServer" destination="ZOe-t4-Gt1" id="NNE-AM-Q2c"/>
                 <outlet property="ipAddress" destination="bzW-sC-B1I" id="wPk-tl-QAd"/>
                 <outlet property="ipSubnetMask" destination="POb-U5-LjP" id="rk2-Ku-czs"/>
